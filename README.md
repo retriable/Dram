@@ -4,7 +4,8 @@
 
 channel sort by using UICollectionView 
 
-<iframeh height=500 width=233 src="https://raw.githubusercontent.com/emsihyo/Dram/master/demo.gif">
+<iframe height=500 width=233 src="https://raw.githubusercontent.com/emsihyo/Dram/master/demo.gif">
+
 #### Cocoapods
 
 Add the following to your project's Podfile:
