@@ -8,13 +8,13 @@
 
 #import "UICollectionView+Dram.h"
 #import <objc/runtime.h>
-CGFloat dram_distanceBetweenPoints(CGPoint first, CGPoint second) {
+static inline CGFloat dram_distanceBetweenPoints(CGPoint first, CGPoint second) {
     CGFloat x = second.x - first.x;
     CGFloat y = second.y - first.y;
     return sqrt(x*x + y*y);
 };
 
-CGPoint dram_CenterOfFrame(CGRect frame) {
+static inline CGPoint dram_centerOfFrame(CGRect frame) {
     return CGPointMake(frame.origin.x+frame.size.width/2, frame.origin.y+frame.size.height/2);
 };
 
@@ -172,7 +172,7 @@ CGPoint dram_CenterOfFrame(CGRect frame) {
     CGFloat dis = CGFLOAT_MAX;
     for (NSInteger i = 0; i < arr.count; i++) {
         UICollectionViewLayoutAttributes *a = arr[i];
-        CGPoint center = dram_CenterOfFrame(a.frame);
+        CGPoint center = dram_centerOfFrame(a.frame);
         CGFloat distance = dram_distanceBetweenPoints(point, center);
         if (distance < dis) {
             dis = distance;

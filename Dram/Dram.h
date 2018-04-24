@@ -6,7 +6,6 @@
 //  Copyright © 2017 emsihyo. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
 #import <Dram/UICollectionView+Dram.h>
 //! Project version number for Dram.
 FOUNDATION_EXPORT double DramVersionNumber;
