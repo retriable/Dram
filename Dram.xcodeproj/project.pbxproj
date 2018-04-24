@@ -49,7 +49,6 @@
 /* Begin PBXFileReference section */
 		0A4F4FEE208F1B05004A6456 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		0A4F4FEF208F1B05004A6456 /* Dram.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Dram.podspec; sourceTree = SOURCE_ROOT; };
-		0A4F4FF2208F1D95004A6456 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../../OODeepLinkKit/.travis.yml; sourceTree = "<group>"; };
 		0AFBC0BC1F998B0E0023AD02 /* Dram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Dram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		0AFBC0BF1F998B0E0023AD02 /* Dram.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dram.h; sourceTree = "<group>"; };
 		0AFBC0C01F998B0E0023AD02 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -112,7 +111,6 @@
 		0AFBC0BE1F998B0E0023AD02 /* Dram */ = {
 			isa = PBXGroup;
 			children = (
-				0A4F4FF2208F1D95004A6456 /* .travis.yml */,
 				0AFBC0BF1F998B0E0023AD02 /* Dram.h */,
 				0A4F4FEF208F1B05004A6456 /* Dram.podspec */,
 				0AFBC0C01F998B0E0023AD02 /* Info.plist */,
