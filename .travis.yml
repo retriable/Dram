@@ -1,6 +1,6 @@
 
 language: objective-c
-osx_image: xcode9
+osx_image: xcode10
 
 env:
   global:
@@ -20,4 +20,4 @@ before_install:
 
 script:
     - set -o pipefail
-    - xcodebuild clean build -project Dram.xcodeproj -target 'Dram' -sdk iphonesimulator PLATFORM_NAME=iphonesimulator -configuration Debug | xcpretty
+    - xcodebuild build -project Dram.xcodeproj -target 'Dram' -sdk iphonesimulator -configuration Debug | xcpretty

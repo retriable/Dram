@@ -68,6 +68,7 @@
 		0AFBC0E81F998B7A0023AD02 /* Cell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Cell.h; sourceTree = "<group>"; };
 		0AFBC0E91F998B7A0023AD02 /* Channel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Channel.m; sourceTree = "<group>"; };
 		0AFBC0EA1F998B7A0023AD02 /* Channel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Channel.h; sourceTree = "<group>"; };
+		C9188DAE2242A6AC004D5D41 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .travis.yml; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +114,7 @@
 			children = (
 				0AFBC0BF1F998B0E0023AD02 /* Dram.h */,
 				0A4F4FEF208F1B05004A6456 /* Dram.podspec */,
+				C9188DAE2242A6AC004D5D41 /* .travis.yml */,
 				0AFBC0C01F998B0E0023AD02 /* Info.plist */,
 				0A4F4FEE208F1B05004A6456 /* README.md */,
 				0AFBC0C71F998B170023AD02 /* UICollectionView+Dram.h */,

@@ -2,8 +2,8 @@
 //  UICollectionView+Dram.m
 //  dram
 //
-//  Created by emsihyo on 2017/6/3.
-//  Copyright © 2017 emsihyo. All rights reserved.
+//  Created by retriable on 2017/6/3.
+//  Copyright © 2017 retriable. All rights reserved.
 //
 
 #import "UICollectionView+Dram.h"
